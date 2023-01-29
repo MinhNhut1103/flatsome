@@ -16,13 +16,17 @@
 [/featured_box]
 
 [/col_inner]
+
 [col_inner span="5" span__sm="12" margin="0px 0px 25px 0px" animate="bounceInUp" depth="2"]
 
 [row_inner_1 style="collapse" padding="10px 20px 2px 20px"]
 
 [col_inner_1 span__sm="12" bg_color="rgb(42, 51, 226)" color="light"]
+
 <h3>1999</h3>
+
 [/col_inner_1]
+
 [col_inner_1 span__sm="12" bg_color="rgb(255,255,255)"]
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -34,6 +38,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 [/col_inner]
 
 [/row_inner]
+
 [row_inner label="Time 2 - Left" style="collapse" v_align="equal"]
 
 [col_inner span="5" span__sm="12" margin="0px 0px 25px 0px" animate="bounceInUp" depth="2"]
@@ -41,8 +46,11 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 [row_inner_1 style="collapse" padding="10px 20px 2px 20px"]
 
 [col_inner_1 span__sm="12" bg_color="rgb(154, 208, 173)" color="light"]
+
 <h3>2001</h3>
+
 [/col_inner_1]
+
 [col_inner_1 span__sm="12" bg_color="rgb(255,255,255)"]
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -52,6 +60,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 [/row_inner_1]
 
 [/col_inner]
+
 [col_inner span="2" span__sm="12" force_first="small" border="0px 2px 0px 0px" border_margin="60px 50% 0px 0px" border_style="dashed" border_color="rgb(228, 228, 228)"]
 
 [featured_box img="670" pos="center" icon_border="3" icon_color="rgb(154, 208, 173)"]
@@ -63,6 +72,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 [/col_inner]
 
 [/row_inner]
+
 [row_inner label="Time 3 - Right" style="collapse" v_align="equal" h_align="right"]
 
 [col_inner span="2" span__sm="12" border="0px 2px 0px 0px" border_margin="60px 50% 0px 0px" border_style="dashed" border_color="rgb(228, 228, 228)"]
@@ -74,13 +84,17 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 [/featured_box]
 
 [/col_inner]
+
 [col_inner span="5" span__sm="12" margin="0px 0px 25px 0px" animate="bounceInUp" depth="2"]
 
 [row_inner_1 style="collapse" padding="10px 20px 2px 20px"]
 
 [col_inner_1 span__sm="12" bg_color="rgb(251, 201, 51)" color="light"]
+
 <h3>2007</h3>
+
 [/col_inner_1]
+
 [col_inner_1 span__sm="12" bg_color="rgb(255,255,255)"]
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -92,6 +106,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 [/col_inner]
 
 [/row_inner]
+
 [row_inner label="Time 4 - Left" style="collapse" v_align="equal"]
 
 [col_inner span="5" span__sm="12" margin="0px 0px 25px 0px" animate="bounceInUp" depth="2"]
@@ -99,8 +114,11 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 [row_inner_1 style="collapse" padding="10px 20px 2px 20px"]
 
 [col_inner_1 span__sm="12" bg_color="rgb(249, 113, 104)" color="light"]
+
 <h3>2015</h3>
+
 [/col_inner_1]
+
 [col_inner_1 span__sm="12" bg_color="rgb(255,255,255)"]
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -110,6 +128,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 [/row_inner_1]
 
 [/col_inner]
+
 [col_inner span="2" span__sm="12" force_first="small" border="0px 2px 0px 0px" border_margin="60px 50% 0px 0px" border_style="dashed" border_color="rgb(228, 228, 228)"]
 
 [featured_box img="672" pos="center" icon_border="3" icon_color="rgb(249, 113, 104)"]
