@@ -1,0 +1,50 @@
+<?php
+/*
+Plugin Name: Custom Greeting Message
+Description: Display a custom greeting message on your website
+Version: 1.0
+Author: OpenAI
+*/
+
+function custom_greeting_message_display() {
+    $greeting_message = get_option('custom_greeting_message_text');
+    echo '<div class="custom-greeting-message">' . $greeting_message . '</div>';
+}
+
+function custom_greeting_message_admin_menu() {
+    add_options_page( 'Custom Greeting Message', 'Greeting Message', 'manage_options', 'custom-greeting-message', 'custom_greeting_message_options_page' );
+}
+
+function custom_greeting_message_options_page() {
+    ?>
+    <div>
+        <h1>Custom Greeting Message</h1>
+        <form method="post" action="options.php">
+            <?php
+                settings_fields( 'custom_greeting_message_group' );
+                do_settings_sections( 'custom-greeting-message' );
+            ?>
+            <table class="form-table">
+                <tr valign="top">
+                    <th scope="row">Greeting Message:</th>
+                    <td><input type="text" name="custom_greeting_message_text" value="<?php echo esc_attr( get_option('custom_greeting_message_text') ); ?>" /></td>
+                </tr>
+            </table>
+            <?php submit_button(); ?>
+        </form>
+    </div>
+    <?php
+}
+
+function custom_greeting_message_settings_init() {
+    register_setting( 'custom_greeting_message_group', 'custom_greeting_message_text' );
+    add_settings_section( 'custom_greeting_message_section', 'Custom Greeting Message', 'custom_greeting_message_section_callback', 'custom-greeting-message' );
+}
+
+function custom_greeting_message_section_callback() {
+    echo 'Enter the text for your custom greeting message:';
+}
+
+add_action( 'admin_menu', 'custom_greeting_message_admin_menu' );
+add_action( 'admin_init', 'custom_greeting_message_settings_init' );
+add_action( 'wp_footer', 'custom_greeting_message_display' );
